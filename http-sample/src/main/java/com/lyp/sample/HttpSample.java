@@ -24,9 +24,6 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
 
-import static sun.jvm.hotspot.code.CompressedStream.H;
-
-
 public class HttpSample {
 
     public static String doGet(String url) {
@@ -161,8 +158,11 @@ public class HttpSample {
             map.put("currency", 1);
             map.put("gameId", "g1001");
             map.put("propsId", "1");
-            map.put("quantity", 10);
-//            System.out.println(doPost(url, JsonUtils.toJson(map)));
+            map.put("quantity", 20);
+            String url = "http://120.92.158.119/pay/api/v1/pay/users/purchase/game/props?timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
+            for(int i=0; i< 100; i++){
+                System.out.println(doPost(url, JsonUtils.toJson(map)));
+            }
         }catch (Exception e){
             e.printStackTrace();
         }
