@@ -16,6 +16,7 @@ import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpPut;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -151,18 +152,168 @@ public class HttpSample {
         return null;
     }
 
+
+    public static String doPostWithHeader(String url, Map<String, String> headMap, String params) throws Exception {
+
+        CloseableHttpClient httpclient = HttpClients.createDefault();
+        HttpPost httpPost = new HttpPost(url);// 创建httpPost
+        httpPost.setHeader("Accept", "application/json");
+        httpPost.setHeader("Content-Type", "application/json");
+        for(Map.Entry<String, String> entry : headMap.entrySet()){
+            httpPost.setHeader(entry.getKey(), entry.getValue());
+        }
+        String charSet = "UTF-8";
+        StringEntity entity = new StringEntity(params, charSet);
+        httpPost.setEntity(entity);
+        CloseableHttpResponse response = null;
+
+        try {
+
+            response = httpclient.execute(httpPost);
+            StatusLine status = response.getStatusLine();
+            int state = status.getStatusCode();
+            if (state == HttpStatus.SC_OK) {
+                HttpEntity responseEntity = response.getEntity();
+                String jsonString = EntityUtils.toString(responseEntity);
+                return jsonString;
+            }
+            else{
+                System.out.println("请求返回："+state+"(" + url + ")");
+            }
+        }
+        finally {
+            if (response != null) {
+                try {
+                    response.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            try {
+                httpclient.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return null;
+    }
+
+    public static String doGetWithHeader(String url, Map<String, String> headMap, String params) throws Exception {
+
+        CloseableHttpClient httpclient = HttpClients.createDefault();
+        HttpGet httpPost = new HttpGet(url);// 创建httpPost
+        httpPost.setHeader("Accept", "application/json");
+        httpPost.setHeader("Content-Type", "application/json");
+        for(Map.Entry<String, String> entry : headMap.entrySet()){
+            httpPost.setHeader(entry.getKey(), entry.getValue());
+        }
+        String charSet = "UTF-8";
+        CloseableHttpResponse response = null;
+
+        try {
+
+            response = httpclient.execute(httpPost);
+            StatusLine status = response.getStatusLine();
+            int state = status.getStatusCode();
+            if (state == HttpStatus.SC_OK) {
+                HttpEntity responseEntity = response.getEntity();
+                String jsonString = EntityUtils.toString(responseEntity);
+                return jsonString;
+            }
+            else{
+                System.out.println("请求返回："+state+"(" + url + ")");
+            }
+        }
+        finally {
+            if (response != null) {
+                try {
+                    response.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            try {
+                httpclient.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return null;
+    }
+
+
+    public static String doPutWithHeader(String url, Map<String, String> headMap, String params) throws Exception {
+
+        CloseableHttpClient httpclient = HttpClients.createDefault();
+        HttpPut httpPost = new HttpPut(url);// 创建httpPost
+        httpPost.setHeader("Accept", "application/json");
+        httpPost.setHeader("Content-Type", "application/json");
+        for(Map.Entry<String, String> entry : headMap.entrySet()){
+            httpPost.setHeader(entry.getKey(), entry.getValue());
+        }
+        String charSet = "UTF-8";
+        StringEntity entity = new StringEntity(params, charSet);
+        httpPost.setEntity(entity);
+        CloseableHttpResponse response = null;
+
+        try {
+
+            response = httpclient.execute(httpPost);
+            StatusLine status = response.getStatusLine();
+            int state = status.getStatusCode();
+            if (state == HttpStatus.SC_OK) {
+                HttpEntity responseEntity = response.getEntity();
+                String jsonString = EntityUtils.toString(responseEntity);
+                return jsonString;
+            }
+            else{
+                System.out.println("请求返回："+state+"(" + url + ")");
+            }
+        }
+        finally {
+            if (response != null) {
+                try {
+                    response.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            try {
+                httpclient.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
         try{
-            Map<String, Object> map = new HashMap();
-            map.put("userId", 32);
-            map.put("currency", 1);
-            map.put("gameId", "g1001");
-            map.put("propsId", "1");
-            map.put("quantity", 20);
-            String url = "http://120.92.158.119/pay/api/v1/pay/users/purchase/game/props?timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
-            for(int i=0; i< 100; i++){
-                System.out.println(doPost(url, JsonUtils.toJson(map)));
+            String rewardUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/integral?timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df&gameId=%s&userId=%s";
+            for(int i=10; i<=50; i++){
+                System.out.println(doPost(String.format(rewardUrl, "g1042", i*16), new HashMap()));
             }
+            String url = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/integral?timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
+            List<Map> list = new ArrayList<>();
+            for(int i=10; i<=25; i++){
+                Map<String, Object> map = new HashMap();
+                map.put("userId", 16 * i);
+                map.put("integral", new Random().nextInt(500));
+                map.put("gameId", "g1042");
+                list.add(map);
+            }
+//            System.out.println(doPost(url, JsonUtils.toJson(list)));
+            List<Map> listNew = new ArrayList<>();
+            for(int i = 26; i<= 50; i++){
+                Map<String, Object> map = new HashMap();
+                map.put("userId", 16 * i);
+                map.put("integral", new Random().nextInt(500) + 500);
+                map.put("gameId", "g1042");
+                listNew.add(map);
+            }
+//            System.out.println(doPost(url, JsonUtils.toJson(listNew)));
+//            String url = "http://120.92.158.119/pay/api/v1/pay/users/purchase/game/props?timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
+
         }catch (Exception e){
             e.printStackTrace();
         }
