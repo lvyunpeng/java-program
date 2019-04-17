@@ -5,51 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8156967-f854-477f-bd7e-9bf4ed79d4b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/libs/clan-center-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/EnhancedOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/LineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/adaptor/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/adaptor/Source.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/adaptor/TargetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/adaptor/Targetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/observer/ClanObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/observer/GameRecordSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/observer/GameTimeObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/observer/TestObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/singleton/InnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/singleton/LanHanSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/strategy/AdvancedMemberStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/strategy/IntermediaterMemberStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/strategy/MemberStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/strategy/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/designSeheme/strategy/PrimaryMemberStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/AuthUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/CryptoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/IDCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/OrderIdGenerate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/StringSpiltDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestUUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/http-sample_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/http-sample_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/http-sample_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/http-sample_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/controller/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/main/java/com/admin/controller/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/application-default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/main/resources/application-default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/statistic/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/statistic/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/HttpSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/HttpSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/MyTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/MyTaskThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/MyTaskThreadFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/ThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/ThreadPoolTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/HttpSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/HttpSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/ThreadPoolTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -237,7 +196,7 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -257,8 +216,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lyp/EnhancedOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="267">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -787,7 +746,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -857,8 +816,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555335155402" />
-    <property name="last_opened_file_path" value="D:/code/pickaxe/server/com" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555501887728" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1121,12 +1080,12 @@
       <workItem from="1554965042373" duration="9772000" />
       <workItem from="1555048892309" duration="2091000" />
       <workItem from="1555063771218" duration="580000" />
-      <workItem from="1555293817981" duration="1724000" />
+      <workItem from="1555293817981" duration="3400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148113000" />
+    <option name="totallyTimeSpent" value="149789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1138,21 +1097,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.34281117" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.34281117" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="1" weight="0.32963374" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.4635193" side_tool="true" weight="0.2408435" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.53648067" weight="0.2408435" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.53648067" visible="true" weight="0.55160934" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.6496781" weight="0.5560488" />
@@ -1572,7 +1530,7 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1588,8 +1546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyp/EnhancedOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="267">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

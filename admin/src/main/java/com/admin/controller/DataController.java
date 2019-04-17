@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 @RestController
@@ -19,18 +21,22 @@ public class DataController {
         TestData data = new TestData();
 
         List<String> xList = new ArrayList<>();
-        xList.add("测试1");
-        xList.add("测试2");
-        xList.add("测试3");
-        xList.add("测试4");
-        xList.add("测试5");
+        Calendar now = Calendar.getInstance();
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        for(int i=0; i<100; i++){
+            now.add(Calendar.DAY_OF_YEAR, -1);
+            xList.add(format.format(now.getTime()));
+        }
+        xList.stream().sorted();
         data.setxList(xList);
         List<Integer> yList = new ArrayList<>();
-        yList.add(12);
-        yList.add(10);
-        yList.add(16);
-        yList.add(11);
-        yList.add(19);
+        for(int i=0; i<20; i++){
+            yList.add(12);
+            yList.add(10);
+            yList.add(16);
+            yList.add(11);
+            yList.add(19);
+        }
         data.setyList(yList);
 
         return JSON.toJSONString(data);

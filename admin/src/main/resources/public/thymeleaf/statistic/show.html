@@ -49,17 +49,16 @@
 
                 // 异步加载数据
                 $.get("/data", function (data) {
-                    alert(data.xList)
-                    alert(data.yList)
+                    var info = JSON.parse(data);
                     // 填入数据
                     myChart.setOption({
                         xAxis: {
-                            data: data.xList
+                            data: info.xList
                         },
                         series: [{
                             // 根据名字对应到相应的系列
                             name: '销量',
-                            data: data.yList
+                            data: info.yList
                         }]
                     });
                 });
