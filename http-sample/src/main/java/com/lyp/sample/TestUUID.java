@@ -44,10 +44,11 @@ public class TestUUID {
 
 
     public static void main(String[] args){
-        for(int i=0; i<50; i++){
-            String uuid = getUUID32();
-            System.out.println(uuid + ":   " + md5Password(uuid) );
-        }
+        System.out.println("cache.user.game.data.535782432".length());
+//        for(int i=0; i<50; i++){
+//            String uuid = getUUID32();
+//            System.out.println(uuid + ":   " + md5Password(uuid) );
+//        }
     }
 
 

@@ -7,7 +7,7 @@ import com.github.abel533.echarts.code.Tool;
 import com.github.abel533.echarts.code.Trigger;
 import com.github.abel533.echarts.feature.MagicType;
 import com.github.abel533.echarts.series.Line;
-import org.junit.Test;
+//import org.junit.Test;
 
 /**
  * @Description
@@ -16,7 +16,7 @@ import org.junit.Test;
  **/
 public class LineTest {
 
-    @Test
+//    @Test
     public void test() {
         //地址:http://echarts.baidu.com/doc/example/line5.html
         EnhancedOption option = new EnhancedOption();

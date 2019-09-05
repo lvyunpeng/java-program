@@ -180,6 +180,8 @@ public class HttpSample {
             else{
                 System.out.println("请求返回："+state+"(" + url + ")");
             }
+        }catch (Exception e){
+            e.printStackTrace();
         }
         finally {
             if (response != null) {

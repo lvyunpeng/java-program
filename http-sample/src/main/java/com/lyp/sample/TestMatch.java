@@ -1,6 +1,7 @@
 package com.lyp.sample;
 
 import java.security.SecureRandom;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,9 +17,13 @@ public class TestMatch {
 //        System.out.println(random.generateSeed(60).toString());
 //        System.out.println("Ly1d5gKjKqWR90KV7IeyUcPfTaWszptc".toCharArray().length);
 
+        Random random = new Random();
+        for(int i=0; i<100; i++){
+            System.out.println(random.nextInt(2));
+        }
 
-        String aa = "1   22";
-        System.out.println(checkNickName(aa));
+//        String aa = "1   22";
+//        System.out.println(checkNickName(aa));
     }
 
 

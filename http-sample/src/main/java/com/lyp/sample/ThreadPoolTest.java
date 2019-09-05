@@ -1,5 +1,7 @@
 package com.lyp.sample;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadFactory;
@@ -16,50 +18,69 @@ public class ThreadPoolTest {
     private static ThreadPoolExecutor executor = null;
 
     static {
-        executor = new ThreadPoolExecutor(500, 500, 200,
+        executor = new ThreadPoolExecutor(100, 100, 200,
                 TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(100000), new MyTaskThreadFactory(), new ThreadPoolExecutor.AbortPolicy()
         );
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Random random = new Random();
         Map<String, Object> map = new HashMap();
-        String integralAddUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/integral?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
-        String getIntegralUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/info?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df&userId=";
-        String addIntegralUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/info?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df&userId=";
-        String createTableUrl = "http://120.92.158.119/gameaide/api/v1/inner/data/sheet?gameId=g1042&type=USER_SEGMENT&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
-        Map<Integer, String> urlMap = new HashMap<>();
-        urlMap.put(0, integralAddUrl);
-        urlMap.put(1, getIntegralUrl);
-        urlMap.put(2, addIntegralUrl);
-        urlMap.put(3, createTableUrl);
+        String url = "http://52.82.45.18:8815/api/v1/inner/users/games/reporting?userId=%d&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
+//        String url = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=lucky_turntable&type=gold&isMulti=0";
+//        String url2 = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=lucky_turntable&type=gold&isMulti=1";
+//        String url3 = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=lucky_turntable&type=gold&isMulti=0";
+//        String url4 = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=lucky_turntable&type=diamond&isMulti=0";
 
-//        String url = "http://120.92.145.229:8834/api/v1/treasure/chest?type=gold&activityId=new_year";
-        List<Long> userIds = new ArrayList<>();
-//        userIds.add(3536l);
-//        userIds.add(224l);
-        userIds.add(84624l);
-//        userIds.add(128l);
-//        userIds.add(144l);
+//        String integralAddUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/integral?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
+//        String getIntegralUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/info?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df&userId=";
+//        String addIntegralUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/info?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df&userId=";
+//        String createTableUrl = "http://120.92.158.119/gameaide/api/v1/inner/data/sheet?gameId=g1042&type=USER_SEGMENT&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
+//        Map<Integer, String> urlMap = new HashMap<>();
+//        urlMap.put(0, integralAddUrl);
+//        urlMap.put(1, getIntegralUrl);
+//        urlMap.put(2, addIntegralUrl);
+//        urlMap.put(3, createTableUrl);
 
-        int count = 50000;
-        Random random1 = new Random();
-        for(int i=0;i<count;i++){
+
+        int count = 1000000;
+        for (int i = 0; i < count; i++) {
             Map<String, String> headMap = new HashMap<>();
-//            headMap.put("userId", userIds.get(random.nextInt(userIds.size())).toString());
-//            headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4NDYyNCIsImlhdCI6MTU1MzE1NTEyOSwic3ViIjoiMjAxOS0wMy0yMSAwNzo1ODo0OSIsImlzcyI6IlNhbmRib3gtU2VjdXJpdHktQmFzaWMiLCJleHAiOjE1NTQwNDQxNjF9.86dY7MuNN1eKGMtG5RItRWLo1HElSj6SiZVrZWF8P-g");
-//            headMap.put("language", "zh_CN");
-            int number = random1.nextInt(3);
-            String url = urlMap.get(number);
+            int a = random.nextInt(1000000);
+            MyTask myTask = null;
+            String urlNew = String.format(url, Integer.valueOf(a * 16));
 
-            MyTask myTask = new MyTask(i, number, url);
+
+//            if(a == 0){
+//                headMap.put("userId", "756244848");
+//                headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NTYyNDQ4NDgiLCJpYXQiOjE1NjE2NTY2NTIsInN1YiI6IjIwMTktMDYtMjcgMTc6MzA6NTIiLCJpc3MiOiJTYW5kYm94LVNlY3VyaXR5LUJhc2ljIiwiZXhwIjoxNTYyNTQ1Njg0fQ.9P71fapTJM6a_pF8depCS7EU4bXEGZaPJ0ShAqL8l6Y");
+//                headMap.put("language", "zh_CN");
+//                myTask = new MyTask(i, url, headMap, "");
+//            }else if(a == 1){
+//                headMap.put("userId", "415190464");
+//                headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0MTUxOTA0NjQiLCJpYXQiOjE1NjE2NDU4OTQsInN1YiI6IjIwMTktMDYtMjcgMTQ6MzE6MzQiLCJpc3MiOiJTYW5kYm94LVNlY3VyaXR5LUJhc2ljIiwiZXhwIjoxNTYyNTM0OTI3fQ.N5fp72nECVfMQTt2dkuPYfF9IQ1CKRff9IPkiYeK7d8");
+//                headMap.put("language", "zh_CN");
+//                myTask = new MyTask(i, url2, headMap, "");
+//            }else if(a == 2){
+//                headMap.put("userId", "48");
+//                headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0OCIsImlhdCI6MTU2MTY0NTYzMiwic3ViIjoiMjAxOS0wNi0yNyAxNDoyNzoxMiIsImlzcyI6IlNhbmRib3gtU2VjdXJpdHktQmFzaWMiLCJleHAiOjE1NjI1MzQ2NjV9.I8N0LCTnKYnraoyI_sw7tkBg5S8SCGw2sC833zDJS48");
+//                headMap.put("language", "zh_CN");
+//                myTask = new MyTask(i, url3, headMap, "");
+//            }else if(a == 3){
+//                headMap.put("userId", "64");
+//                headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2NCIsImlhdCI6MTU2MTQ0ODc1Miwic3ViIjoiMjAxOS0wNi0yNSAwNzo0NTo1MiIsImlzcyI6IlNhbmRib3gtU2VjdXJpdHktQmFzaWMiLCJleHAiOjE1NjIzMzc3ODR9.MzKSW42xE62S1rQrQ3Zerswu52TMgjfg8akKvCZbGmQ");
+//                headMap.put("language", "zh_CN");
+//                myTask = new MyTask(i, url4, headMap, "");
+//            }
+
+
             executor.execute(myTask);
         }
 
-        while(executor.getCompletedTaskCount() != count){
-            try{
+        while (executor.getCompletedTaskCount() != count) {
+            try {
                 Thread.sleep(2000);
-            }catch (Exception e){
+            } catch (Exception e) {
 
             }
         }
@@ -70,37 +91,23 @@ public class ThreadPoolTest {
 
 class MyTask implements Runnable {
     private int taskNum;
-
-    private int number;
-
     private String url;
+    private Map<String, String> headMap;
+    private String param;
 
 
-    public MyTask(int num,int number, String url) {
+    public MyTask(int num, String url, Map<String, String> headMap, String param) {
         this.taskNum = num;
-        this.number = number;
         this.url = url;
+        this.headMap = headMap;
+        this.param = param;
     }
 
     @Override
     public void run() {
         try {
-            long userId = new Random().nextInt(2000000) + 1000000;
-            if(number == 0){
-                List<Map<String, Object>> list = new ArrayList<>();
-                Map<String, Object> map = new HashMap<>();
-                map.put("userId", Long.valueOf(userId));
-                map.put("gameId", "g1042");
-                map.put("integral", 10);
-                map.put("level", 1);
-                list.add(map);
-                System.out.println(number + ":" + url + ": "  + JsonUtils.toJson(list) + ":" + HttpSample.doPost(url, JsonUtils.toJson(list)));
-            }else if(number == 1){
-                System.out.println(number + ":" + url+userId + ": " + HttpSample.doGet(url+userId));
-            }else if(number == 2){
-                userId = 5000000 + userId;
-                System.out.println(number + ":" + url+userId + ": " + HttpSample.doGet(url+userId));
-            }
+            String result = HttpSample.doPostWithHeader(url, headMap, param);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -108,13 +115,14 @@ class MyTask implements Runnable {
 }
 
 
-class MyTaskThreadFactory implements ThreadFactory{
+class MyTaskThreadFactory implements ThreadFactory {
     private static String FACTORYNAME = "MYTASKFACTORY";
     private static List<? super Thread> threadList = new ArrayList<>();
 
-    public void setFactoryName(String name){
+    public void setFactoryName(String name) {
         FACTORYNAME = name;
     }
+
     @Override
     public Thread newThread(Runnable r) {
         synchronized (r) {

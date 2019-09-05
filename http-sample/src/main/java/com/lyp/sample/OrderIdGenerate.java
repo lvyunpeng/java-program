@@ -1,10 +1,7 @@
 package com.lyp.sample;
 
-import com.sun.deploy.util.StringUtils;
-
 import java.util.HashSet;
 import java.util.Random;
-import java.util.Scanner;
 import java.util.Set;
 
 /**
