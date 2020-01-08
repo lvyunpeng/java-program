@@ -1,1086 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8156967-f854-477f-bd7e-9bf4ed79d4b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/YamlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/ExcelSheetNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/ExcelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/GroupChatPriceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/ImageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/YamlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FEBS-Shiro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/etc/ddl.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/etc/index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/etc/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/etc/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/etc/role.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/etc/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/application/MenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/application/ResourceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/application/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/application/SysLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/application/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/config/CacheConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/config/DruidDataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/config/MvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/config/SessionConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/controller/DataController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/data/TestData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/Resource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/SelectMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/SelectResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/SelectRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/SysLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/TreeModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/modle/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/repository/MenuRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/repository/ResourceRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/repository/SysLogRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/service/ResourceSelectService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/domain/service/RoleSelectService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/infrastructure/BeanUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/infrastructure/persistence/jdbc/MenuRepositoryJdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/infrastructure/persistence/jdbc/ResourceRepositoryJdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/infrastructure/persistence/jdbc/RoleRepositoryJdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/infrastructure/persistence/jdbc/SysLogRepositoryJdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/infrastructure/persistence/jdbc/UserRepositoryJdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/facade/assembler/MenuAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/facade/assembler/UserAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/facade/commondobject/MenuCreateCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/facade/commondobject/MenuUpdateCommond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/facade/commondobject/ProfileCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/facade/commondobject/UserCommond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/facade/dto/MyProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/facade/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/intercept/NavMenuActiveInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/web/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/web/MenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/web/PublicAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/web/ResourceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/web/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/web/StatisticController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/web/SysLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/interfaces/web/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/security/HttpSecurityResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/security/Md5PasswordEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/security/SecurityUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/security/SecurityUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/security/UrlSecurityInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/java/com/admin/security/UserDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/application-default.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/application-prod.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/AdminLTE.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/AdminLTE.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/_all-skins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/_all-skins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-black-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-black-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-black.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-black.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-blue-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-blue-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-blue.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-green-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-green-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-green.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-purple-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-purple-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-purple.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-red-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-red-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-red.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-yellow-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-yellow-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/css/skins/skin-yellow.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/avatar04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/avatar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/avatar3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/avatar5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/boxed-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/boxed-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/credit/american-express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/credit/cirrus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/credit/mastercard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/credit/mestro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/credit/paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/credit/paypal2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/credit/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/default-50x50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/photo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/photo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/photo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/photo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/user1-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/user2-160x160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/user3-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/user4-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/user5-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/user6-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/user7-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/img/user8-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/js/app.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/js/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/third/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/dist/third/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/js/list-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/bootstrap-slider/bootstrap-slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/bootstrap-slider/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/chartjs/Chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/chartjs/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/CHANGES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/adapters/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/build-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/ckeditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/contents.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/mn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/sr-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/about/dialogs/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/dialog/dialogDefinition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/icons_hidpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/image/dialogs/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/image/images/noimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/link/dialogs/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/link/dialogs/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/link/images/anchor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/magicline/images/icon-rtl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/pastefromword/filter/default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/scayt/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/scayt/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/scayt/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/scayt/dialogs/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/table/dialogs/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/wsc/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/wsc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/css/samples.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/img/github-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/img/header-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/img/header-separator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/img/navigation-tip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/js/sample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/js/sf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/ajax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/appendto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/assets/inlineall/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/assets/posteddata.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/assets/sample.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/assets/uilanguages/languages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/datafiltering.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/dialog/dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/divreplace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/enterkey/enterkey.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/inlineall.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/inlinebycode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/inlinetextarea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/jquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/magicline/magicline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/readonly.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/replacebyclass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/replacebycode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/sample.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/sample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/sample_posteddata.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/tabindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/uicolor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/uilanguages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/old/xhtmlstyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/font/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/dialog_ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/dialog_ie7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/dialog_ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/dialog_iequirks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/editor_gecko.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/editor_ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/editor_ie7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/editor_ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/editor_iequirks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/icons_hidpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/hidpi/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/hidpi/lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/lock-open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/images/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/skins/moono/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ckeditor/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/bootstrap-colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/bootstrap-colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/bootstrap-colorpicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/img/alpha-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/img/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/img/hue-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/img/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/colorpicker/img/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/examples/columns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/examples/fill-both.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/examples/scrolling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/examples/step-callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/images/filler.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/col_filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/colvis.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/new_init.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/predefined.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/realtime.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/reset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/scrolling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/server_side.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/examples/state_save.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/images/insert.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/button_order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/group_columns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/jqueryui.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/mouseover.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/new_init.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/restore.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/title_callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/two_tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/colvis.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/css_size.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/index_column.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/right_column.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/examples/events.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/examples/html.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/examples/scrolling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/display-control/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/styling/compact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/styling/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/examples/data/2500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/examples/data/ssp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/examples/large_js_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/examples/state_saving.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/images/loading-background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/ajax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/button_text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/collection.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/defaults.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/jqueryui.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/multi_instance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/new_init.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/pdf_message.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/plug-in.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/select_column.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/select_multi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/select_os.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/select_single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/examples/swf_path.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/collection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/collection_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/copy_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/csv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/csv_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/pdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/pdf_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/print.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/print_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/psd/collection.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/psd/printer.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/xls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/images/xls_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/jquery.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/jquery.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datatables/jquery.dataTables_themeroller.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/datepicker3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.kk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.kr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.rs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.sw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.ua.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/daterangepicker/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/daterangepicker/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/daterangepicker/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/fastclick/fastclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/fastclick/fastclick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/excanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/excanvas.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.colorhelpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.colorhelpers.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.canvas.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.categories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.categories.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.crosshair.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.crosshair.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.errorbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.errorbars.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.fillbetween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.fillbetween.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.image.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.navigate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.navigate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.pie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.resize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.selection.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.stack.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.symbol.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.threshold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.threshold.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/flot/jquery.flot.time.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/fullcalendar/fullcalendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/fullcalendar/fullcalendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/fullcalendar/fullcalendar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/fullcalendar/fullcalendar.print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/flat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/flat@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/flat/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/futurico/futurico.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/futurico/futurico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/futurico/futurico@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/icheck.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/icheck.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/line.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/line@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/line/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/minimal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/minimal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/minimal@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/minimal/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/polaris/polaris.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/polaris/polaris.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/polaris/polaris@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/square.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/square@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/iCheck/square/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/jquery.inputmask.date.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/jquery.inputmask.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/jquery.inputmask.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/jquery.inputmask.numeric.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/jquery.inputmask.phone.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/jquery.inputmask.regex.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/phone-codes/phone-be.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/phone-codes/phone-codes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/input-mask/phone-codes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ionslider/img/sprite-skin-flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ionslider/img/sprite-skin-nice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ionslider/ion.rangeSlider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ionslider/ion.rangeSlider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ionslider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/ionslider/ion.rangeSlider.skinNice.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/jQuery/jquery-2.2.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/jQueryUI/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/jQueryUI/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/jvectormap/jquery-jvectormap-1.2.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/jvectormap/jquery-jvectormap-usa-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/knob/jquery.knob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/morris/morris.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/morris/morris.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/morris/morris.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/pace/pace.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/pace/pace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/pace/pace.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/pace/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/select2/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/slimScroll/jquery.slimscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/sparkline/jquery.sparkline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/timepicker/bootstrap-timepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/timepicker/bootstrap-timepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/timepicker/bootstrap-timepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/plugins/timepicker/bootstrap-timepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/error/401.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/error/403.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/error/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/menu/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/menu/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/resource/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/resource/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/role/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/role/grant-menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/role/grant-resource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/role/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/script.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/statistic/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/syslog/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/user/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/user/grant-role.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/user/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/main/resources/public/thymeleaf/user/profile.html" beforeDir="false" />
+    <list default="true" id="8be7a1f8-f72d-4297-9567-1729bf4f59bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/RedisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/peng.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/http-sample_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/http-sample_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/http-sample_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/http-sample_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/http-sample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/http-sample_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/http-sample_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/HttpSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/HttpSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/MyTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/MyTaskThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/MyTaskThreadFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/ThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/lyp/sample/ThreadPoolTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/LineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/HttpSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/HttpSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/OrderIdGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/OrderIdGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestUUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestUUID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/TestFor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lyp/sample/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyp/sample/ThreadPoolTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1088,25 +28,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/http_sample$AuthUtils.ic" NAME="AuthUtils Coverage Results" MODIFIED="1547547842568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.lyp.sample.*</FILTER>
-    </SUITE>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -1133,74 +54,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>finished</find>
-      <find>thread pool</find>
-      <find>doPostWithHeader</find>
-      <find>setCellValue</find>
-      <find>sortFieldByAnno</find>
-      <find>log</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="mavenHome" value="/usr/local/Cellar/maven/3.5.2/libexec" />
-        <option name="usePluginRegistry" value="true" />
-        <option name="userSettingsFile" value="/usr/local/Cellar/maven/3.5.2/libexec/conf/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="downloadSourcesAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="1.8" />
-  </component>
-  <component name="ProjectId" id="1OiY5ZkWpETLXgrE4TpXCHO00Ta" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state />
-    </entry>
-  </component>
+  <component name="ProjectId" id="1Tm1ItLjhyGf52S8pSkxetl0MRe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564458205627" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lyp.sample" />
-      <recent name="com.lyp" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code\java-program\http-sample\libs" />
-      <recent name="E:\code\java-program\http-sample" />
-      <recent name="$PROJECT_DIR$/gradle/wrapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1215,17 +86,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestUUID">
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupChatPriceConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyp.sample.GroupChatPriceConfig" />
-      <module name="http-sample_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Application.ThreadPoolTest">
+    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyp.sample.DateTest" />
+      <module name="http-sample.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lyp.sample.*" />
@@ -1236,10 +100,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpSample" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="HttpSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyp.sample.HttpSample" />
-      <module name="http-sample_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="http-sample.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lyp.sample.*" />
@@ -1250,10 +113,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyp.sample.TestMatch" />
-      <module name="http-sample_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyp.sample.RedisTest" />
+      <module name="http-sample.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lyp.sample.*" />
@@ -1264,10 +126,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUUID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyp.sample.TestUUID" />
-      <module name="http-sample_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyp.sample.Student" />
+      <module name="http-sample.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lyp.sample.*" />
@@ -1280,78 +141,31 @@
     </configuration>
     <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyp.sample.ThreadPoolTest" />
-      <module name="http-sample_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="http-sample.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lyp.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YamlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyp.sample.YamlTest" />
-      <module name="http-sample_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyp.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HttpSample" />
+      <item itemvalue="Application.Student" />
       <item itemvalue="Application.ThreadPoolTest" />
-      <item itemvalue="Application.YamlTest" />
-      <item itemvalue="Application.GroupChatPriceConfig" />
-      <item itemvalue="Application.TestMatch" />
-      <item itemvalue="Application.TestUUID" />
+      <item itemvalue="Application.RedisTest" />
+      <item itemvalue="Application.DateTest" />
+      <item itemvalue="Application.HttpSample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestUUID" />
+        <item itemvalue="Application.HttpSample" />
+        <item itemvalue="Application.DateTest" />
+        <item itemvalue="Application.RedisTest" />
         <item itemvalue="Application.ThreadPoolTest" />
-        <item itemvalue="Application.TestMatch" />
-        <item itemvalue="Application.YamlTest" />
-        <item itemvalue="Application.GroupChatPriceConfig" />
+        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -1360,222 +174,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8156967-f854-477f-bd7e-9bf4ed79d4b2" name="Default" comment="" />
-      <created>1546189790170</created>
+      <changelist id="8be7a1f8-f72d-4297-9567-1729bf4f59bb" name="Default Changelist" comment="" />
+      <created>1574050379626</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546189790170</updated>
-      <workItem from="1546189792720" duration="437000" />
-      <workItem from="1546190258834" duration="172000" />
-      <workItem from="1546190494223" duration="2259000" />
-      <workItem from="1546309713863" duration="14458000" />
-      <workItem from="1546397009946" duration="752000" />
-      <workItem from="1546410826163" duration="1202000" />
-      <workItem from="1546416357556" duration="524000" />
-      <workItem from="1546416923604" duration="252000" />
-      <workItem from="1546417234197" duration="7628000" />
-      <workItem from="1546825909681" duration="592000" />
-      <workItem from="1546853833656" duration="589000" />
-      <workItem from="1546916738921" duration="4112000" />
-      <workItem from="1547086359715" duration="3457000" />
-      <workItem from="1547431729624" duration="587000" />
-      <workItem from="1547438012290" duration="580000" />
-      <workItem from="1547454572950" duration="2539000" />
-      <workItem from="1547525895343" duration="1436000" />
-      <workItem from="1547604655449" duration="574000" />
-      <workItem from="1547640294486" duration="1186000" />
-      <workItem from="1547696952178" duration="596000" />
-      <workItem from="1547865064298" duration="576000" />
-      <workItem from="1547901372756" duration="70000" />
-      <workItem from="1548035707282" duration="592000" />
-      <workItem from="1548038296860" duration="2622000" />
-      <workItem from="1548122564683" duration="591000" />
-      <workItem from="1548209442322" duration="1177000" />
-      <workItem from="1548381734881" duration="1415000" />
-      <workItem from="1548414189799" duration="3808000" />
-      <workItem from="1548468777306" duration="6701000" />
-      <workItem from="1548490279624" duration="1227000" />
-      <workItem from="1548640721272" duration="588000" />
-      <workItem from="1548663904000" duration="596000" />
-      <workItem from="1548813621062" duration="592000" />
-      <workItem from="1548830312729" duration="597000" />
-      <workItem from="1550023624602" duration="230000" />
-      <workItem from="1550025417895" duration="595000" />
-      <workItem from="1550026434776" duration="1974000" />
-      <workItem from="1550109207187" duration="598000" />
-      <workItem from="1550113049379" duration="1008000" />
-      <workItem from="1550114702120" duration="598000" />
-      <workItem from="1550458586208" duration="594000" />
-      <workItem from="1550547972357" duration="595000" />
-      <workItem from="1550714214893" duration="614000" />
-      <workItem from="1551059183015" duration="1187000" />
-      <workItem from="1551093419263" duration="1189000" />
-      <workItem from="1551323752622" duration="591000" />
-      <workItem from="1551324518899" duration="587000" />
-      <workItem from="1551836985658" duration="1179000" />
-      <workItem from="1551864623712" duration="584000" />
-      <workItem from="1551923399258" duration="588000" />
-      <workItem from="1551925994528" duration="596000" />
-      <workItem from="1551927772178" duration="597000" />
-      <workItem from="1551943715753" duration="593000" />
-      <workItem from="1551963068881" duration="547000" />
-      <workItem from="1552026640010" duration="1186000" />
-      <workItem from="1552045989158" duration="229000" />
-      <workItem from="1552269488103" duration="595000" />
-      <workItem from="1552275807423" duration="2022000" />
-      <workItem from="1552528760806" duration="593000" />
-      <workItem from="1552545576189" duration="586000" />
-      <workItem from="1552626383515" duration="583000" />
-      <workItem from="1552654954579" duration="592000" />
-      <workItem from="1552874610928" duration="596000" />
-      <workItem from="1552891744979" duration="5004000" />
-      <workItem from="1552984022260" duration="19797000" />
-      <workItem from="1553564822514" duration="6104000" />
-      <workItem from="1553677622927" duration="585000" />
-      <workItem from="1553684052271" duration="596000" />
-      <workItem from="1553759735774" duration="722000" />
-      <workItem from="1553768874847" duration="1685000" />
-      <workItem from="1554084807501" duration="588000" />
-      <workItem from="1554088136867" duration="1186000" />
-      <workItem from="1554256457765" duration="2988000" />
-      <workItem from="1554381476603" duration="576000" />
-      <workItem from="1554689437677" duration="570000" />
-      <workItem from="1554722582951" duration="1186000" />
-      <workItem from="1554726015666" duration="594000" />
-      <workItem from="1554777812644" duration="1665000" />
-      <workItem from="1554864224957" duration="1183000" />
-      <workItem from="1554882323493" duration="587000" />
-      <workItem from="1554891855629" duration="592000" />
-      <workItem from="1554947639836" duration="594000" />
-      <workItem from="1554965042373" duration="9772000" />
-      <workItem from="1555048892309" duration="2091000" />
-      <workItem from="1555063771218" duration="580000" />
-      <workItem from="1555293817981" duration="4811000" />
-      <workItem from="1555554430693" duration="58000" />
-      <workItem from="1555554722907" duration="589000" />
-      <workItem from="1555645732112" duration="1117000" />
-      <workItem from="1555897868099" duration="2896000" />
-      <workItem from="1555922403188" duration="7784000" />
-      <workItem from="1555934784579" duration="1578000" />
-      <workItem from="1556011032497" duration="318000" />
-      <workItem from="1556011388127" duration="6339000" />
-      <workItem from="1556092306707" duration="2910000" />
-      <workItem from="1556417282726" duration="2559000" />
-      <workItem from="1556502272370" duration="586000" />
-      <workItem from="1557021225715" duration="593000" />
-      <workItem from="1557309652457" duration="593000" />
-      <workItem from="1557713019453" duration="583000" />
-      <workItem from="1557715899156" duration="588000" />
-      <workItem from="1557924832256" duration="267000" />
-      <workItem from="1557972174910" duration="596000" />
-      <workItem from="1557979876653" duration="576000" />
-      <workItem from="1557995140881" duration="736000" />
-      <workItem from="1557999297968" duration="594000" />
-      <workItem from="1558059180527" duration="561000" />
-      <workItem from="1558317573479" duration="2352000" />
-      <workItem from="1558353178641" duration="1761000" />
-      <workItem from="1558507109097" duration="519000" />
-      <workItem from="1558679840214" duration="558000" />
-      <workItem from="1559016269766" duration="354000" />
-      <workItem from="1559016662399" duration="597000" />
-      <workItem from="1559528173891" duration="594000" />
-      <workItem from="1559536463272" duration="586000" />
-      <workItem from="1559564790441" duration="1308000" />
-      <workItem from="1560740262342" duration="597000" />
-      <workItem from="1560761568121" duration="590000" />
-      <workItem from="1560825111517" duration="595000" />
-      <workItem from="1560830072097" duration="1252000" />
-      <workItem from="1561341580871" duration="555000" />
-      <workItem from="1561366071885" duration="1290000" />
-      <workItem from="1561515663272" duration="442000" />
-      <workItem from="1561516137236" duration="8018000" />
-      <workItem from="1561946564965" duration="589000" />
-      <workItem from="1562206242653" duration="565000" />
-      <workItem from="1562213399591" duration="592000" />
-      <workItem from="1562297666848" duration="597000" />
-      <workItem from="1562553281685" duration="593000" />
-      <workItem from="1562560000927" duration="591000" />
-      <workItem from="1562656175993" duration="583000" />
-      <workItem from="1562664717991" duration="592000" />
-      <workItem from="1562729165795" duration="589000" />
-      <workItem from="1562742009631" duration="592000" />
-      <workItem from="1562811172419" duration="593000" />
-      <workItem from="1562831865129" duration="594000" />
-      <workItem from="1563155171044" duration="594000" />
-      <workItem from="1563161699909" duration="582000" />
-      <workItem from="1563329180232" duration="597000" />
-      <workItem from="1563333492285" duration="12258000" />
-      <workItem from="1563528867472" duration="402000" />
-      <workItem from="1563540438301" duration="345000" />
-      <workItem from="1563763663864" duration="597000" />
-      <workItem from="1563765292546" duration="594000" />
-      <workItem from="1563865794432" duration="2606000" />
-      <workItem from="1564110129150" duration="4907000" />
-      <workItem from="1564369830381" duration="1248000" />
-      <workItem from="1564389194935" duration="2104000" />
-      <workItem from="1564461708990" duration="567000" />
-      <workItem from="1564462773490" duration="595000" />
-      <workItem from="1564469826445" duration="596000" />
-      <workItem from="1564473244063" duration="598000" />
-      <workItem from="1564474388039" duration="587000" />
-      <workItem from="1564477277068" duration="597000" />
-      <workItem from="1564478521800" duration="331000" />
-      <workItem from="1564478901383" duration="267000" />
-      <workItem from="1564479511522" duration="43000" />
-      <workItem from="1564479576830" duration="2047000" />
-      <workItem from="1564976497850" duration="591000" />
-      <workItem from="1565317552275" duration="569000" />
-      <workItem from="1565319333957" duration="584000" />
-      <workItem from="1565575514162" duration="595000" />
-      <workItem from="1565833538239" duration="598000" />
-      <workItem from="1565920127332" duration="594000" />
-      <workItem from="1565923633591" duration="591000" />
-      <workItem from="1565924599954" duration="595000" />
-      <workItem from="1565937608721" duration="1337000" />
-      <workItem from="1566180886911" duration="593000" />
-      <workItem from="1566203501223" duration="594000" />
-      <workItem from="1566204758086" duration="541000" />
-      <workItem from="1566215116791" duration="588000" />
-      <workItem from="1566265615214" duration="592000" />
-      <workItem from="1566290381404" duration="596000" />
-      <workItem from="1566291683324" duration="593000" />
-      <workItem from="1566302195578" duration="417000" />
-      <workItem from="1566302677015" duration="592000" />
-      <workItem from="1566355428320" duration="120000" />
-      <workItem from="1566355575979" duration="274000" />
-      <workItem from="1566356320941" duration="596000" />
-      <workItem from="1566370230576" duration="595000" />
-      <workItem from="1566372718377" duration="594000" />
-      <workItem from="1566377501153" duration="338000" />
-      <workItem from="1566377873568" duration="261000" />
-      <workItem from="1566378169362" duration="357000" />
-      <workItem from="1566378558140" duration="594000" />
-      <workItem from="1566381837610" duration="592000" />
-      <workItem from="1566443573339" duration="593000" />
-      <workItem from="1566473710244" duration="370000" />
-      <workItem from="1566474105050" duration="596000" />
-      <workItem from="1566475112778" duration="594000" />
-      <workItem from="1566475861778" duration="594000" />
-      <workItem from="1566784795324" duration="596000" />
-      <workItem from="1566788544551" duration="594000" />
-      <workItem from="1566789551104" duration="596000" />
-      <workItem from="1566792422798" duration="314000" />
-      <workItem from="1566792761282" duration="245000" />
-      <workItem from="1566793275184" duration="361000" />
-      <workItem from="1566793657974" duration="598000" />
-      <workItem from="1566819172817" duration="595000" />
-      <workItem from="1566895550525" duration="193000" />
-      <workItem from="1566895769553" duration="598000" />
-      <workItem from="1566974656533" duration="4000" />
-      <workItem from="1566974683665" duration="596000" />
-      <workItem from="1566986778885" duration="599000" />
-      <workItem from="1567069400631" duration="597000" />
-      <workItem from="1567070806183" duration="596000" />
-      <workItem from="1567130779972" duration="597000" />
-      <workItem from="1567388761071" duration="594000" />
-      <workItem from="1567406424687" duration="595000" />
-      <workItem from="1567408236821" duration="1235000" />
-      <workItem from="1567561370099" duration="711000" />
+      <updated>1574050379626</updated>
+      <workItem from="1574050382370" duration="98000" />
+      <workItem from="1574050668151" duration="2354000" />
+      <workItem from="1574127940419" duration="596000" />
+      <workItem from="1575535397744" duration="1463000" />
+      <workItem from="1575966840324" duration="2220000" />
+      <workItem from="1576641556473" duration="2083000" />
+      <workItem from="1576726419096" duration="1857000" />
+      <workItem from="1576756420414" duration="599000" />
+      <workItem from="1576822988798" duration="598000" />
+      <workItem from="1576831761522" duration="596000" />
+      <workItem from="1577066142563" duration="595000" />
+      <workItem from="1577351414791" duration="1774000" />
+      <workItem from="1577446354497" duration="597000" />
+      <workItem from="1577928118005" duration="594000" />
+      <workItem from="1578107082422" duration="596000" />
+      <workItem from="1578472447288" duration="3015000" />
     </task>
     <servers />
   </component>
@@ -1594,126 +213,16 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lyp/sample/StringSpiltDemo.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/libs/excel-util-1.2.4.jar!/com/sargeraswang/util/ExcelUtil/ExcelUtil.class</url>
-          <line>177</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lyp/sample/ExcelTest.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lyp/sample/ExcelTest.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Software/gradle-4.8/caches/modules-2/files-2.1/com.sargeraswang.util/excel-util/1.2.1/9eff64569745c92d0062b9922d9afc2ecf686dd/excel-util-1.2.1-sources.jar!/com/sargeraswang/util/ExcelUtil/ExcelUtil.java</url>
-          <line>223</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Software/gradle-4.8/caches/modules-2/files-2.1/com.sargeraswang.util/excel-util/1.2.1/9eff64569745c92d0062b9922d9afc2ecf686dd/excel-util-1.2.1-sources.jar!/com/sargeraswang/util/ExcelUtil/ExcelUtil.java</url>
-          <line>219</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lyp/sample/ExcelTest.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lyp/sample/HttpSample.java</url>
-          <line>171</line>
-          <option name="timeStamp" value="15" />
+          <line>160</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

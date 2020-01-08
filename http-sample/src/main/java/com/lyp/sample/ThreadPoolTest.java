@@ -1,6 +1,7 @@
 package com.lyp.sample;
 
 import org.apache.commons.lang3.StringUtils;
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -18,64 +19,35 @@ public class ThreadPoolTest {
     private static ThreadPoolExecutor executor = null;
 
     static {
-        executor = new ThreadPoolExecutor(100, 100, 200,
+        executor = new ThreadPoolExecutor(10, 10, 200,
                 TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(100000), new MyTaskThreadFactory(), new ThreadPoolExecutor.AbortPolicy()
         );
     }
 
     public static void main(String[] args) {
+        String url = "http://52.82.39.67:8910/api/v1/game/rank?isNew=0&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
+//        String url = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=halloween_turntable&type=diamond&isMulti=1";
+        Map<String, String> headMap = new HashMap<>();
+//        headMap.put("userId", "128");
+//        headMap.put("language", "zh_CN");
+//        headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMjgiLCJpYXQiOjE1NzUzNDUzNzcsInN1YiI6IjIwMTktMTItMDMgMTE6NTY6MTciLCJpc3MiOiJTYW5kYm94LVNlY3VyaXR5LUJhc2ljIiwiZXhwIjoxNTc2MjM0NDEwfQ.wt1J_ZcLoBrhkrqzqGmEScRnvtBRWJ18hwPP8RFI6Qk");
+
+        Map<String, Object> map = new HashMap<>();
+        map.put("add", Boolean.TRUE);
+        map.put("count", 2);
+        map.put("key", "g1014.criminal");
         Random random = new Random();
-        Map<String, Object> map = new HashMap();
-        String url = "http://52.82.45.18:8815/api/v1/inner/users/games/reporting?userId=%d&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
-//        String url = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=lucky_turntable&type=gold&isMulti=0";
-//        String url2 = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=lucky_turntable&type=gold&isMulti=1";
-//        String url3 = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=lucky_turntable&type=gold&isMulti=0";
-//        String url4 = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=lucky_turntable&type=diamond&isMulti=0";
 
-//        String integralAddUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/integral?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
-//        String getIntegralUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/info?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df&userId=";
-//        String addIntegralUrl = "http://120.92.158.119/gameaide/api/v1/inner/user/segment/info?gameId=g1042&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df&userId=";
-//        String createTableUrl = "http://120.92.158.119/gameaide/api/v1/inner/data/sheet?gameId=g1042&type=USER_SEGMENT&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
-//        Map<Integer, String> urlMap = new HashMap<>();
-//        urlMap.put(0, integralAddUrl);
-//        urlMap.put(1, getIntegralUrl);
-//        urlMap.put(2, addIntegralUrl);
-//        urlMap.put(3, createTableUrl);
-
-
-        int count = 1000000;
+        int count = 1000;
         for (int i = 0; i < count; i++) {
-            Map<String, String> headMap = new HashMap<>();
-            int a = random.nextInt(1000000);
-            MyTask myTask = null;
-            String urlNew = String.format(url, Integer.valueOf(a * 16));
-
-
-//            if(a == 0){
-//                headMap.put("userId", "756244848");
-//                headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NTYyNDQ4NDgiLCJpYXQiOjE1NjE2NTY2NTIsInN1YiI6IjIwMTktMDYtMjcgMTc6MzA6NTIiLCJpc3MiOiJTYW5kYm94LVNlY3VyaXR5LUJhc2ljIiwiZXhwIjoxNTYyNTQ1Njg0fQ.9P71fapTJM6a_pF8depCS7EU4bXEGZaPJ0ShAqL8l6Y");
-//                headMap.put("language", "zh_CN");
-//                myTask = new MyTask(i, url, headMap, "");
-//            }else if(a == 1){
-//                headMap.put("userId", "415190464");
-//                headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0MTUxOTA0NjQiLCJpYXQiOjE1NjE2NDU4OTQsInN1YiI6IjIwMTktMDYtMjcgMTQ6MzE6MzQiLCJpc3MiOiJTYW5kYm94LVNlY3VyaXR5LUJhc2ljIiwiZXhwIjoxNTYyNTM0OTI3fQ.N5fp72nECVfMQTt2dkuPYfF9IQ1CKRff9IPkiYeK7d8");
-//                headMap.put("language", "zh_CN");
-//                myTask = new MyTask(i, url2, headMap, "");
-//            }else if(a == 2){
-//                headMap.put("userId", "48");
-//                headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0OCIsImlhdCI6MTU2MTY0NTYzMiwic3ViIjoiMjAxOS0wNi0yNyAxNDoyNzoxMiIsImlzcyI6IlNhbmRib3gtU2VjdXJpdHktQmFzaWMiLCJleHAiOjE1NjI1MzQ2NjV9.I8N0LCTnKYnraoyI_sw7tkBg5S8SCGw2sC833zDJS48");
-//                headMap.put("language", "zh_CN");
-//                myTask = new MyTask(i, url3, headMap, "");
-//            }else if(a == 3){
-//                headMap.put("userId", "64");
-//                headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2NCIsImlhdCI6MTU2MTQ0ODc1Miwic3ViIjoiMjAxOS0wNi0yNSAwNzo0NTo1MiIsImlzcyI6IlNhbmRib3gtU2VjdXJpdHktQmFzaWMiLCJleHAiOjE1NjIzMzc3ODR9.MzKSW42xE62S1rQrQ3Zerswu52TMgjfg8akKvCZbGmQ");
-//                headMap.put("language", "zh_CN");
-//                myTask = new MyTask(i, url4, headMap, "");
-//            }
-
-
+            List<Map<String, Object>> list = new ArrayList<>();
+            map.put("member", 16 * (random.nextInt(2) + 1) );
+            list.add(map);
+            MyTask myTask = new MyTask(i, url, headMap, JsonUtils.toJson(list));
             executor.execute(myTask);
         }
+
+
 
         while (executor.getCompletedTaskCount() != count) {
             try {
@@ -106,8 +78,9 @@ class MyTask implements Runnable {
     @Override
     public void run() {
         try {
+//            String result = HttpSample.doGetWithHeader(url, headMap, param);
             String result = HttpSample.doPostWithHeader(url, headMap, param);
-
+            System.out.println(taskNum +  ": " + result);
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -1,5 +1,10 @@
 package com.lyp.sample;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 /**
  * @Description
  * @Author lv.yp
@@ -14,6 +19,17 @@ public class Student {
     private Integer grade;
 
     public Student(){}
+
+    public static void main(String[] args){
+
+        Set<Integer> set = new HashSet<>();
+        for(int i=1; i<=100; i++){
+            set.add(i);
+        }
+
+        System.out.println(JsonUtils.toJson(set));
+        System.out.println(JsonUtils.toJson(set).length());
+    }
 
     public Student(int age, String nickName, int grade){
         this.age = age;

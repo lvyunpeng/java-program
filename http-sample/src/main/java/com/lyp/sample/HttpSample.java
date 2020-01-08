@@ -164,6 +164,7 @@ public class HttpSample {
         }
         String charSet = "UTF-8";
         StringEntity entity = new StringEntity(params, charSet);
+        entity.setContentType("application/json");
         httpPost.setEntity(entity);
         CloseableHttpResponse response = null;
 
@@ -178,7 +179,7 @@ public class HttpSample {
                 return jsonString;
             }
             else{
-                System.out.println("请求返回："+state+"(" + url + ")");
+                System.out.println("request response："+state+"(" + url + ")");
             }
         }catch (Exception e){
             e.printStackTrace();
