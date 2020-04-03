@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>success</title>
+</head>
+<body>
+
+success
+<input type="hidden" name="state" th:value="${state}" id="state"></input>
+<input type="hidden" name="order_id" th:value="${order_id}" id="order_id"></input>
+<input type="hidden" name="transaction_id" th:value="${transaction_id}" id="transaction_id"></input>
+<input type="hidden" name="productId" th:value="${productId}" id="productId"></input>
+<input type="hidden" name="pmId" th:value="${pmId}" id="pmId"></input>
+<script type="text/javascript">
+        var state = document.getElementById("state").value;
+        var order_id = document.getElementById("order_id").value;
+        var transaction_id = document.getElementById("transaction_id").value;
+        var productId = document.getElementById("productId").value;
+        var pmId = document.getElementById("pmId").value;
+        window.location = "blocky://blockymods.oversea/pay?state="+state+"&amp;productId="+productId+"&amp;pmId="+pmId;
+</script>
+</body>
+
+</html>

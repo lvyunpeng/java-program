@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+<form id="checkout-form" method="POST" th:action="@{${url}}" >
+    <input type="hidden" name="api_key" th:value="${api_key}"></input>
+    <input type="hidden" name="api_sig" th:value="${api_sig}"></input>
+    <input type="hidden" name="order_id" th:value="${order_id}"></input>
+    <input type="hidden" name="amount" th:value="${amount}"></input>
+    <input type="hidden" name="currency" th:value="${currency}"></input>
+    <input type="hidden" name="description" th:value="${description}"></input>
+    <input type="hidden" name="return_url" th:value="${returnUrl}" th:if="${returnUrl != null}"></input>
+</form>
+   <script>
+           window.onload = function() {
+               document.getElementById('checkout-form').submit();
+           }
+   </script>
+
+
+</body>
+
+</html>
