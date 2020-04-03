@@ -19,31 +19,34 @@ public class ThreadPoolTest {
     private static ThreadPoolExecutor executor = null;
 
     static {
-        executor = new ThreadPoolExecutor(10, 10, 200,
+        executor = new ThreadPoolExecutor(500, 500, 200,
                 TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(100000), new MyTaskThreadFactory(), new ThreadPoolExecutor.AbortPolicy()
         );
     }
 
     public static void main(String[] args) {
-        String url = "http://52.82.39.67:8910/api/v1/game/rank?isNew=0&timestamp=1506316800723&nonce=792703&signature=115630d4c852eda21bcc0fbe7b3ab626ae19a7df";
-//        String url = "http://mods.sandboxol.com/activity/api/v1/lucky/turntable?activityId=halloween_turntable&type=diamond&isMulti=1";
+        String url = "http://dev.mods.sandboxol.cn/game/api/v1/game/auth?typeId=%s";
         Map<String, String> headMap = new HashMap<>();
-//        headMap.put("userId", "128");
-//        headMap.put("language", "zh_CN");
-//        headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMjgiLCJpYXQiOjE1NzUzNDUzNzcsInN1YiI6IjIwMTktMTItMDMgMTE6NTY6MTciLCJpc3MiOiJTYW5kYm94LVNlY3VyaXR5LUJhc2ljIiwiZXhwIjoxNTc2MjM0NDEwfQ.wt1J_ZcLoBrhkrqzqGmEScRnvtBRWJ18hwPP8RFI6Qk");
+        headMap.put("userId", "128");
+        headMap.put("language", "zh_CN");
+        headMap.put("Access-Token", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMjgiLCJpYXQiOjE1ODU2NTI3NTgsInN1YiI6IjIwMjAtMDMtMzEgMTk6MDU6NTgiLCJpc3MiOiJTYW5kYm94LVNlY3VyaXR5LUJhc2ljIiwiZXhwIjoxNTg2NTQxNzkwfQ.Ntr77zs_qXPltZp9u15H8HGDXRN4u7l37FAbfu4Jlwk");
+        headMap.put("CloudFront-Viewer-Country", "zh_CN");
+        headMap.put("packageName", "android");
 
-        Map<String, Object> map = new HashMap<>();
-        map.put("add", Boolean.TRUE);
-        map.put("count", 2);
-        map.put("key", "g1014.criminal");
+        List<String> gameIds = new ArrayList<>();
+        gameIds.add("g1008");
+        gameIds.add("g1046");
+        gameIds.add("g1058");
+        gameIds.add("g1002");
+        gameIds.add("g1018");
+        gameIds.add("g1055");
         Random random = new Random();
 
-        int count = 1000;
+
+        int count = 1000000;
         for (int i = 0; i < count; i++) {
-            List<Map<String, Object>> list = new ArrayList<>();
-            map.put("member", 16 * (random.nextInt(2) + 1) );
-            list.add(map);
-            MyTask myTask = new MyTask(i, url, headMap, JsonUtils.toJson(list));
+            String gameUrl = String.format(url, gameIds.get(random.nextInt(4)));
+            MyTask myTask = new MyTask(i, gameUrl, headMap, "");
             executor.execute(myTask);
         }
 
@@ -79,7 +82,7 @@ class MyTask implements Runnable {
     public void run() {
         try {
 //            String result = HttpSample.doGetWithHeader(url, headMap, param);
-            String result = HttpSample.doPostWithHeader(url, headMap, param);
+            String result = HttpSample.doGetWithHeader(url, headMap, param);
             System.out.println(taskNum +  ": " + result);
         } catch (Exception e) {
             e.printStackTrace();
