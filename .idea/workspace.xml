@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/FMDemoEvent" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/auth-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/clan-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/decoration-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/friend-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/game-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/gamedata-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/mailbox-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/msg-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/pay-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/center/user-center" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/common/utils" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/process/message-process" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/activity-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/admin-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/charmingtown-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/clan-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/decoration-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/editorstatistic-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/eureka-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/friend-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/game-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/gameaide-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/gamedata-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/gateway-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/geoinfo-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/msg-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/pay-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/ranking-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/shop-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/singleton-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/statistic-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/user-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/code/pickaxe/server/com/sandbox/service/video-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/mycode/java-program/web-service" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
